@@ -1,6 +1,5 @@
 package player
 
-import "log"
 import "github.com/funny/go-project-demo/server1/module"
 
 type PlayerModule struct {
@@ -13,5 +12,5 @@ func init() {
 
 // 扣除铜钱
 func (player PlayerModule) DecreaseCoins(num int) {
-	log.Printf("DecreaseCoins(%d)", num)
+	println("DecreaseCoins(", num, ")")
 }
