@@ -1,7 +1,7 @@
 package log_test
 
 import (
-	"go-project-demo/library/log"
+	"github.com/Icedroid/go-project-demo/library/log"
 )
 
 func Example() {

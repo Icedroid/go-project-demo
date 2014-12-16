@@ -1,6 +1,6 @@
 package player
 
-import "github.com/funny/go-project-demo/server1/module"
+import "github.com/Icedroid/go-project-demo/server1/module"
 
 type PlayerModule struct {
 }
